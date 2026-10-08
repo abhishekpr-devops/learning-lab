@@ -1,0 +1,60 @@
+<details>
+    <summary>Toggle Accordion</summary>
+    <p>Hidden content revealed on click.</p>
+</details>
+
+<progress value="70" max="100">70%</progress>
+<meter value="0.6" min="0" max="1">60%</meter>
+
+<form action="/submit" method="POST">
+    <fieldset>
+        <legend>User Credentials</legend>
+        
+        <label for="text-in">Text:</label>
+        <input type="text" id="text-in" name="text-in">
+
+        <label for="pass-in">Password:</label>
+        <input type="password" id="pass-in" name="pass-in">
+
+        <label for="email-in">Email:</label>
+        <input type="email" id="email-in" name="email-in">
+
+        <label for="num-in">Number:</label>
+        <input type="number" id="num-in" name="num-in">
+
+        <label for="file-in">File:</label>
+        <input type="file" id="file-in" name="file-in">
+    </fieldset>
+
+    <fieldset>
+        <legend>Choices</legend>
+
+        <input type="checkbox" id="check1" name="check1" value="yes">
+        <label for="check1">Checkbox</label>
+
+        <input type="radio" id="rad1" name="group" value="1">
+        <label for="rad1">Radio 1</label>
+        <input type="radio" id="rad2" name="group" value="2">
+        <label for="rad2">Radio 2</label>
+
+        <label for="select1">Select:</label>
+        <select id="select1" name="select1">
+            <option value="opt1">Option 1</option>
+            <option value="opt2">Option 2</option>
+        </select>
+
+        <label for="data-in">Autocomplete:</label>
+        <input list="options" id="data-in" name="data-in">
+        <datalist id="options">
+            <option value="Choice A">
+            <option value="Choice B">
+        </datalist>
+
+        <label for="area">Textarea:</label>
+        <textarea id="area" name="area" rows="3" cols="20"></textarea>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Button</button>
+</form>
